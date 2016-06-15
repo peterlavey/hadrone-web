@@ -9,81 +9,154 @@
       <link rel="stylesheet" href="css/main.css"/>
    </head>
    <body>
-      <div class="mdl-js-layout mdl-layout--fixed-header">
-         <div class="background-hadrone">
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+         <section id="main" class="background" style="background-image: url('img/background.jpg');">
             <header class="mdl-layout__header mdl-layout__header--transparent">
                <div class="mdl-layout__header-row">
                   <span class="mdl-layout-title">Hadrone</span>
                   <div class="mdl-layout-spacer"></div>
-                  <nav class="mdl-navigation">
+                  <nav class="mdl-navigation mdl-typography--display-1-color-contrast">
                      <a class="mdl-navigation__link" href="#">Home</a>
-                     <a class="mdl-navigation__link" href="#">Home</a>
-                     <a class="mdl-navigation__link" href="#">Home</a>
-                     <a class="mdl-navigation__link" href="#">Home</a>
-                     <a class="mdl-navigation__link" href="#">Home</a>
+                     <a class="mdl-navigation__link" href="#">Follow</a>
+                     <a class="mdl-navigation__link" href="#">Preview</a>
+                     <a class="mdl-navigation__link" href="#">Features</a>
+                     <a class="mdl-navigation__link mdl-color-text--accent" href="#">Contribute</a>
                   </nav>
                </div>
             </header>
-            <section name="main">
-               <div class="almost-fullscreen mdl-grid mdl-color-text--grey-100">
-                  <div class="mdl-cell mdl-cell--middle mdl-cell--6-col mdl-typography--text-center">
-                     <p>
-                        Un entorno centralizado en proyectos realizados en javascript
-                        con nodejs 100% gratuito!.
-                     </p>
-                     <footer>
-                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
-                           Download for Windows
-                        </button>
-                        <button class="mdl-button mdl-js-button mdl-color-text--grey-100">
-                           Download for Linux
-                        </button>
-                     </footer>
-                  </div>
+            <div class="almost-fullscreen mdl-grid mdl-color-text--grey-100">
+               <div class="mdl-cell mdl-cell--middle mdl-cell--6-col mdl-typography--text-center">
+                  <p>
+                     Un entorno centralizado en proyectos realizados en javascript
+                     con nodejs 100% gratuito!.
+                  </p>
+                  <footer>
+                     <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+                        Download for Windows
+                     </button>
+                     <button class="mdl-button mdl-js-button mdl-color-text--grey-100">
+                        Download for Linux
+                     </button>
+                  </footer>
                </div>
-            </section>
-            <section name="description">
-               <div class="fullscreen mdl-typography--text-center mdl-grid mdl-color--indigo-500 mdl-color-text--grey-100">
-                  <div class="mdl-cell mdl-cell--middle mdl-cell--12-col">
-                     <h3>What is it?</h3>
-                     <h4>
-                        Hadrone es un administrador de proyectos javascript implementados
-                        con el motor de nodejs, permite ingresar tanto proyectos node como
-                        la base de datos mongodb, el principal objetivo es integrar proyectos
-                        web con su api y la base de datos para luego ser levantadas con un solo
-                        click, también se puede personalizar la forma de levantamiento.
-                     </h3>
-                  </div>
+            </div>
+         </section>
+
+         <section name="tutorial">
+            <div class="mdl-grid mdl-typography--text-center mdl-color--grey-100">
+               <div class="mdl-cell mdl-cell--12-col mdl-typography--display-1-color-contrast">
+                  <h3>Getting Started</h3>
                </div>
-            </section>
-            <section name="tutorial">
-               <div class="mdl-grid mdl-typography--text-center mdl-color--grey-100">
-                  <div class="mdl-cell mdl-cell--12-col">
-                     <h3>Getting Started</h3>
-                  </div>
-               </div>
-               <div class="almost-fullscreen mdl-grid mdl-typography--text-center mdl-color--grey-100">
-                  <div class="mdl-cell">
+            </div>
+            <div class="almost-fullscreen mdl-grid mdl-typography--text-center mdl-color--grey-100">
+               <div class="mdl-cell" style="padding: 0% 3%;">
+                  <h2>
+                     <i class="material-icons md-48">backup</i>
+                  </h2>
+                  <h4>Agrega</h4>
+                  <p style="text-align : justify;">
                      Agrega proyectos subiendo el package.json a la aplicación
-                     <figure>
-                        <img src="img/single-project.png" width="200" />
-                     </figure>
-                  </div>
-                  <div class="mdl-cell">
-                     Selecciona el modo de inicio y levanta la aplicación.
-                     <figure>
-                        <img src="img/start-project.png" width="200" />
-                     </figure>
-                  </div>
-                  <div class="mdl-cell">
-                     Fusiona los proyectos en uno solo.
-                     <figure>
-                        <img src="img/mix-project.png" width="200" />
-                     </figure>
-                  </div>
+                     Agrega proyectos subiendo el package.json a la aplicación
+                     Agrega proyectos subiendo el package.json a la aplicación
+                  </p>
                </div>
-            </section>
-         </div>
+               <div class="mdl-cell" style="padding: 0% 3%;">
+                  <h2>
+                     <i class="material-icons md-48">settings</i>
+                  </h2>
+                  <h4>Configura</h4>
+                  <p style="text-align : justify;">
+                     Selecciona el modo de inicio y levanta la aplicación.
+                     Selecciona el modo de inicio y levanta la aplicación.
+                     Selecciona el modo de inicio y levanta la aplicación.
+                  </p>
+               </div>
+               <div class="mdl-cell" style="padding: 0% 3%;">
+                  <h2>
+                     <i class="material-icons md-48">settings_input_composite</i>
+                  </h2>
+                  <h4>Combina</h4>
+                  <p style="text-align : justify;">
+                     Fusiona los proyectos en uno solo.
+                     Fusiona los proyectos en uno solo.
+                     Fusiona los proyectos en uno solo.
+                  </p>
+               </div>
+            </div>
+            <div class="mdl-grid mdl-typography--text-center mdl-color--blue-grey-900">
+               <div class="mdl-cell mdl-cell--12-col mdl-color-text--blue-grey-100">
+                  <h3>Awesome performance to integrate any project</h3>
+               </div>
+            </div>
+         </section>
+         <section name="tutorial">
+            <div class="fullscreen mdl-grid mdl-typography--text-center mdl-color--grey-100">
+               <div class="mdl-cell mdl-cell--2-col">
+
+               </div>
+               <div class="mdl-cell mdl-cell--8-col background-containt" style="background-image: url('img/hadrone.png');">
+
+               </div>
+               <div class="mdl-cell mdl-cell--2-col">
+
+               </div>
+            </div>
+         </section>
+         <section name="tutorial" class="background" style="background-image: url('img/party.jpg');">
+            <div class="almost-fullscreen mdl-grid mdl-typography--text-center">
+               <div class="mdl-cell mdl-cell--12-col">
+
+               </div>
+            </div>
+            <div class="mdl-grid mdl-color--indigo-500">
+               <div class="mdl-cell mdl-cell--2-col background-containt" style="background-image: url('img/heroku.png');">
+               </div>
+               <div class="mdl-cell mdl-cell--10-col mdl-typography--display-1-color-contrast mdl-typography--font-thin">
+                  <h3>Sube tu proyecto a la nube con un solo click</h3>
+                  <p class="mdl-typography--headline mdl-typography--font-thin">
+                     Hadrone sugiere subir tus proyectos a Heroku, para ello integra
+                     está posibilidad dentro de la aplicación guardando tus datos registro
+                     y pasando versiones de forma automatica.
+                  </p>
+                  <p>
+                     <a class="mdl-typography--text-uppercase" href="https://www.heroku.com/" style="text-decoration: blink;">
+                        Hecha un vistazo a Heroku&nbsp;<i class="material-icons" style="position: absolute;">chevron_right</i>
+                      </a>
+                  </p>
+               </div>
+            </div>
+         </section>
+
+         <!--<section id="description">
+            <div class="mdl-typography--text-center mdl-grid mdl-color--blue-grey-500">
+               <div class="mdl-cell mdl-cell--6-col">
+               </div>
+               <div class="mdl-cell mdl-cell--6-col mdl-cell--middle mdl-typography--display-1-color-contrast">
+                  <h3 class="mdl-typography--display-2-color-contrast">What is it?</h3>
+                  <p class="mdl-typography--display-1-color-contrast">
+                     Hadrone es un administrador de proyectos javascript implementados
+                     con el motor de nodejs, permite ingresar tanto proyectos node como
+                     la base de datos mongodb.
+                  </p>
+               </div>
+            </div>
+            <div class="mdl-typography--text-center mdl-grid mdl-color--blue-grey-500">
+               <div class="mdl-cell mdl-cell--6-col mdl-cell--middle mdl-typography--display-1-color-contrast">
+                  <h3 class="mdl-typography--display-2-color-contrast">What is it?</h3>
+                  <p class="mdl-typography--display-1-color-contrast">
+                     El principal objetivo es integrar proyectos
+                     web con su api y la base de datos para luego ser levantadas con un solo
+                     click, también se puede personalizar la forma de levantamiento.
+                  </p>
+               </div>
+               <div class="mdl-cell mdl-cell--6-col">
+               </div>
+            </div>
+            <a class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--accent btn-start" href="#main">
+              <i class="material-icons">keyboard_arrow_up</i>
+            </a>
+         </section>-->
+
          <footer class="mdl-mini-footer mdl-color--grey-900">
             <div class="mdl-mini-footer__left-section">
                <div class="mdl-logo">

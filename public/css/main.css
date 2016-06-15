@@ -1,12 +1,16 @@
 html{
    background-color: #000;
 }
-.background-hadrone{
-   background-image: url('http://photos.demandstudios.com/getty/article/18/15/87663838.jpg');
+.background{
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
    position: relative;
+}
+.background-containt{
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: contain;
 }
 .almost-fullscreen{
    position: relative;
@@ -15,4 +19,13 @@ html{
 .fullscreen{
    position: relative;
    height: 100vh;
+}
+.btn-start{
+   left: 95%;
+   transform: translateX(-50%);
+   position: absolute;
+   z-index: 1;
+}
+.material-icons.md-48{
+   font-size: 48px;
 }
